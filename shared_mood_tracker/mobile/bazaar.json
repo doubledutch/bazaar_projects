@@ -1,0 +1,35 @@
+{
+  "name": "shared_mood_tracker",
+  "version": "0.0.1",
+  "baseBundleVersion": "0.40.10",
+  "description": "Description for shared_mood_tracker",
+  "collections": [
+    {
+      "description": "mood sample data",
+      "globalReadAccess": true,
+      "globalWriteAccess": false,
+      "name": "mood_samples",
+      "userWriteAccess": true
+    }
+  ],
+  "components": {
+    "mobile": {
+      "enabled": true,
+      "build": true
+    },
+    "api": {
+      "enabled": true,
+      "build": true
+    },
+    "adminWeb": {
+      "enabled": true,
+      "build": true,
+      "customURL": ""
+    },
+    "attendeeWeb": {
+      "enabled": false,
+      "build": true,
+      "customURL": ""
+    }
+  }
+}

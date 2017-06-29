@@ -1,0 +1,41 @@
+{
+  "baseBundleVersion": "0.40.10",
+  "collections": [
+    {
+      "description": "mood sample data",
+      "globalReadAccess": true,
+      "globalWriteAccess": false,
+      "name": "mood_samples",
+      "userWriteAccess": true
+    }
+  ],
+  "components": {
+    "adminWeb": {
+      "build": true,
+      "customURL": "",
+      "enabled": true
+    },
+    "api": {
+      "build": true,
+      "enabled": true
+    },
+    "attendeeWeb": {
+      "build": true,
+      "customURL": "",
+      "enabled": false
+    },
+    "mobile": {
+      "build": true,
+      "enabled": true
+    }
+  },
+  "description": "Description for shared_mood_tracker",
+  "developer": {
+    "email": "nclark@doubledutch.me",
+    "name": "",
+    "phone": ""
+  },
+  "id": "6afb2514-3e8e-470d-93d7-e1dfb2c9bff5",
+  "name": "shared_mood_tracker",
+  "version": "0.0.1"
+}
