@@ -1,0 +1,34 @@
+{
+  "baseBundleVersion": "0.46.4",
+  "collections": [
+  ],
+  "components": {
+    "adminWeb": {
+      "build": false,
+      "customURL": "",
+      "enabled": false
+    },
+    "api": {
+      "build": false,
+      "enabled": false
+    },
+    "attendeeWeb": {
+      "build": false,
+      "customURL": "",
+      "enabled": false
+    },
+    "mobile": {
+      "build": true,
+      "enabled": true
+    }
+  },
+  "description": "Sample Bazaar feature that simply shows a Google search for the current user in a WebView",
+  "developer": {
+    "email": "adam@doubledutch.me",
+    "name": "",
+    "phone": ""
+  },
+  "id": "3b1c77ee-7f46-4c94-938a-8f799042b9e6",
+  "name": "webview_search",
+  "version": "0.0.1"
+}
